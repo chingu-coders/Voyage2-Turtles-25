@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "RCR",
-  "description": "React, Chrome, and Redux example",
+  "name": "Zen Tab",
+  "description": "Zen Tab Extension",
   "version": "0.0.0.1",
   "background": {
     "scripts": [
@@ -10,8 +10,13 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "RCR Example",
+    "default_title": "New Tab",
     "default_popup": "popup.html"
+  },
+
+  "permissions" : ["management"],
+  "chrome_url_overrides": {
+    "newtab": "popup.html"
   },
   "content_scripts": [
     {

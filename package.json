@@ -1,16 +1,30 @@
 {
-  "name": "zen-tab",
-  "version": "0.1.0",
+  "name": "rcr-example",
+  "version": "0.0.1",
   "private": true,
-  "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
-  },
+  "description": "",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Shaddix",
+  "dependencies": {
+    "react": "^15.5.0",
+    "react-chrome-redux": "0.0.7",
+    "react-dom": "^15.5.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "rimraf": "^2.5.0",
+    "webpack": "^2.6.0"
   }
 }
